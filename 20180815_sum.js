@@ -8,7 +8,7 @@ const sum = function (nums, target) {
       }
     }
   }
-  return '未找到'
+  return false
 }
 
 console.log(sum([1, 2, 3], 6))
