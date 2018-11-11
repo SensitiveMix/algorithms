@@ -5,7 +5,6 @@ function Find (target, array) {
   }
 
   let maxtrix = array.length
-  let col = array[0].length
 
   let row = 0
   let c = array[0].length - 1
