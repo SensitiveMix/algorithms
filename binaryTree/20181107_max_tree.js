@@ -1,5 +1,5 @@
 /**
- * 中序遍历，递归访问当前对象的左子树，直至对象没有左子树，输出当前对象；返回上一级，输出对象，递归访问右子树，再访问该左子树。
+ * 获取二叉树最大节点值
  * @param {*} key
  */
 
@@ -27,6 +27,7 @@ function BinaryTree () {
 
 function maxTreeNode (node) {
   if (node) {
+    // 找出最右节点，平衡二叉树特点：左子树根节点值均小于右子树节点值
     while (node.right && node.right !== null) {
       node = node.right
     }
