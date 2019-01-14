@@ -1,3 +1,5 @@
+// 根据左子树以及右子树构造完整二叉树
+
 function TreeNode (x) {
   this.val = x
   this.left = null
