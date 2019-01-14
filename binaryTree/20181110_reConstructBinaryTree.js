@@ -4,8 +4,8 @@ function TreeNode (x) {
   this.right = null
 }
 function reConstructBinaryTree (pre, vin) {
-    // write code here
-    // 定义二叉树
+   // write code here
+   // 定义二叉树
 
   if (!pre.length || !vin.length) return false
   let binaryTree = new TreeNode(pre[0])
